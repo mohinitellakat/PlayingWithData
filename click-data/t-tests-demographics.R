@@ -32,7 +32,7 @@ sat2 <- spring2016$SAT_Tot
 
 t.test(sat1, sat2)
 
-esc_t(p=0.089, grp1n = 1384, grp2n = 671)
+esc_t(p=0.006, grp1n = 1384, grp2n = 671)
 
 #t-tests for first time in college
 FTIC1 <- fall2015$FTIC_enrolled_JWP
@@ -141,3 +141,29 @@ otherdata <- rbind(IsOther, IsOther2)
 other_table <- table(otherdata$IsOther, otherdata$Semester)
 
 chisq.test(other_table, correct=FALSE)
+
+##Chisquared tests for people who didn't have click data/ we didn't use
+
+#CR/NC
+semester1 <- data.frame(crnc = 23, grade = 1546)
+semester2 <- data.frame(crnc = 9, grade = 727)
+crnc_data <- rbind(semester1, semester2)
+
+chisq.test(crnc_data, correct=FALSE)
+esc_chisq(p=.6419, totaln = 2305)
+
+#dropped
+s1 <- data.frame(drop = 78, grade = 1491)
+s2 <- data.frame(drop = 3, grade = 733)
+drop_data <- rbind(s1, s2)
+
+chisq.test(drop_data, correct=FALSE)
+esc_chisq(p=2.899e-08, totaln = 2305)
+
+#no grade
+sm1 <- data.frame(ng = 84, grade = 1485)
+sm2 <- data.frame(ng = 53, grade = 683)
+ng_data <- rbind(sm1, sm2)
+
+chisq.test(ng_data, correct=FALSE)
+esc_chisq(p=0.08032, totaln = 2305)
