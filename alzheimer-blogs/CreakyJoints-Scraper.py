@@ -2,21 +2,13 @@
 """
 Created on Mon Jul 17 12:44:06 2017
 
-@author: mt34546
-"""
+@author: Mohini Tellakat
 
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Jun 29 11:57:18 2017
+Creaky Joints Scraper
+Description: Beautiful soup scraper for the blog indicated in the main_link
 
-@author: mt34546
-"""
 
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Mar 01 12:26:27 2017
 
-@author: mt34546
 """
 
 #import urllib2

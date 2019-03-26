@@ -2,21 +2,9 @@
 """
 Created on Mon Jul 17 15:15:57 2017
 
-@author: mt34546
-"""
-
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Jun 29 11:57:18 2017
-
-@author: mt34546
-"""
-
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Mar 01 12:26:27 2017
-
-@author: mt34546
+@author: Mohini Tellakat
+RA Warrior Blog Scraper
+Description: Using beautiful soup to scrape the RA Warrior blog indicated at the main_link variable
 """
 
 #import urllib2

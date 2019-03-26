@@ -2,48 +2,18 @@
 """
 Created on Thu Jun 29 11:57:18 2017
 
-@author: mt34546
+@author: Mohini Tellakat
+
+Living with RA Scraper
+Description: Beautiful Soup scraper for the blog indicated by the link at ks_link
 """
 
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Mar 01 12:26:27 2017
-
-@author: mt34546
-"""
 
 #import urllib2
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 import re
-
-#import time
-#
-#from selenium import webdriver
-#from selenium.webdriver.common.keys import Keys
-#
-#browser = webdriver.Chrome()
-#
-#browser.get("https://kateswaffer.com/daily-blog/")
-#time.sleep(1)
-#
-#elem = browser.find_element_by_tag_name("a")
-#
-#no_of_pagedowns = 1200
-#
-#while no_of_pagedowns:
-#    elem.send_keys(Keys.PAGE_DOWN)
-#    time.sleep(0.2)
-#    no_of_pagedowns-=1
-#
-#post_elems = browser.find_elements_by_class_name("post-item-title")
-#
-#for post in post_elems:
-#    print post.get_attribute("href")
-
-
-
 
 post_urls = []
 month_urls = []
