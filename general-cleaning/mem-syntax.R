@@ -1,4 +1,5 @@
 #####Example Syntax for Meaning Extraction Method Analysis#####
+#####Author: Kayla Jordan, modified by Mohini Tellakat ########
 #Packages to install
 install.packages("stringr")
 install.packages("psych")

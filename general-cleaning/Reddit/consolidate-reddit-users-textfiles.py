@@ -2,8 +2,10 @@
 """
 Created on Tue Jun 19 12:36:06 2018
 
-@author: mohini
+@author: Mohini Tellakat
 
+Consolidate reddit users in files - .txt file consolidation
+Description:
 1) Get a list of all of the files for a game
 2) Check list for for multiples of usernames
 3) Combine the text from the files with multiples of usernames and delete the previous seperate 
