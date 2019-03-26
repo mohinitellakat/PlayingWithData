@@ -61,7 +61,7 @@ import datetime
 #define the folder that the data is in
 InputDirectory = 'E:/Dataset/Comments/'
 #define the folder where we'd like to place out output data
-OutputDirectory = 'D:/Games/Reddit-Comments-GameNetwork'
+OutputDirectory = 'D:/Games/Reddit-Comments-GameNetwork/DotA2'
 #Define the filename of the output file
 OutputFilename = 'Extracted Reddit Data - Comments'
 
@@ -81,7 +81,7 @@ retain_key = 'author'
 #to ensure that the matching lines up
 
 Users_To_Keep = set()
-User_List_Filename = 'D:/Games/reddit-games-unique-authors.txt'
+User_List_Filename = 'D:/Games/authors-DotA2-Post100-Dota1.txt'
 
 with open(User_List_Filename, 'r', encoding='utf8') as UserFileIncoming:
     for line in UserFileIncoming:

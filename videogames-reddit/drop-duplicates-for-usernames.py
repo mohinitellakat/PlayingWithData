@@ -9,11 +9,11 @@ I want this script to output a list of unique authors in my games subreddit data
 
 import pandas as pd
 
-df = pd.read_csv("D:/Games/reddit-comments-metadata-aggregated.csv")
+df = pd.read_csv("G:/My Drive/GradSchoolStuff-UT/Code/videogames-reddit/splitcsv-test/fornite-ExtractedRedditData-Comments-TextData.csv")
 
 df2 = df['author']
 
 df2 = df2.drop_duplicates()
 
-df2.to_csv("D:/Games/reddit-games-unique-authors.csv", index = False)
+df2.to_csv("D:/Games/fortnite-unique-authors.csv", index = False)
 
